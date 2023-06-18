@@ -11,6 +11,9 @@ import React from 'react'
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
 
+
+
+
   return (
    <nav>
         <div className="container nav__container">
@@ -24,7 +27,7 @@ const Navbar = () => {
                     return (
                         <li key= {index}>
                                 <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' :
-                                ''} onClick={() => setIsNavShowing(prev => !prev)}>{name} </NavLink>
+                                ''} onClick={() => setIsNavShowing()}>{name} </NavLink>
                         </li>
                     )
                   })
@@ -32,7 +35,8 @@ const Navbar = () => {
 
              </ul>
           
-            <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev)}>
+            {/* <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev)}> */}
+            <button className="nav__toggle-btn" onClick={() => setIsNavShowing(!isNavShowing)}>
 
               {
                 isNavShowing ? <AiOutlineCloseCircle/> : <FaBars/>
