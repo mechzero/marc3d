@@ -11,8 +11,8 @@ import './trainers.css'
 const Trainers = () => {
   return (
     <>
-    <Header title="Our Trainers" image={HeaderImage}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, laudantium. Assumenda error corporis deleniti libero hic, praesentium fugit odit veritatis!
+    <Header title="Vehicles" image={HeaderImage}>
+     This has nothing to do with the vehicles! I just needed some text and images for the content of this website
     </Header>
     <section className="trainers">
       <div className="container trainers__container">

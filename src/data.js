@@ -20,7 +20,7 @@ export const links = [
         path: '/plans'
     },
     {
-        name: "Trainers",
+        name: "Vehicles",
         path: '/trainers'
     },
     {
@@ -271,43 +271,43 @@ export const trainers = [
     {
         id: 1,
         image: Trainer1,
-        name: 'John Doe',
-        job: 'Aerobic Trainer',
+        name: '1971 Mustang',
+        job: 'Carbuerated',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 2,
         image: Trainer2,
-        name: 'Daniel vinyo',
-        job: 'Speed Trainer',
+        name: 'Nissan Titan',
+        job: 'Tows',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 3,
         image: Trainer3,
-        name: 'Edem Quist',
-        job: 'Flexibility Trainer',
+        name: 'SS',
+        job: 'Fuel Injected',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 4,
         image: Trainer4,
-        name: 'Shatta Wale',
-        job: 'Body Composition Trainer',
+        name: 'LS2',
+        job: '6.0L',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 5,
         image: Trainer5,
-        name: 'Diana Ayi',
-        job: 'Circuit Trainer',
+        name: 'SS Monte',
+        job: 'LSX',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 6,
         image: Trainer6,
-        name: 'Wayne Carter',
-        job: 'Physical Intelligence Trainer',
+        name: 'Car Trailer',
+        job: 'Trailers',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     }
 ]

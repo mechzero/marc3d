@@ -7,8 +7,8 @@ const MainHeader = () => {
     <header className="main__header">
         <div className="main__header-container">
           <div className="main__header-left">
-            <h4>#100DaysOfWorkout</h4>
-            <h1>Join The Legends Of The Fitness World</h1>
+            <h4>#100DaysOfPrototyping</h4>
+            <h1>Bring Your Idea To Life With 3D Printing</h1>
 
             <p>
             The moonlit whispers revealed secrets untold, as the stars danced to the rhythm of forgotten tales.
