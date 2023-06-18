@@ -35,8 +35,8 @@ const Navbar = () => {
 
              </ul>
           
-            {/* <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev)}> */}
-            <button className="nav__toggle-btn" onClick={() => setIsNavShowing(!isNavShowing)}>
+            <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev)}>
+            {/* <button className="nav__toggle-btn" onClick={() => setIsNavShowing(!isNavShowing)}> */}
 
               {
                 isNavShowing ? <AiOutlineCloseCircle/> : <FaBars/>

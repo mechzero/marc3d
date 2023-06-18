@@ -26,8 +26,7 @@
     margin-bottom: 1rem;
     color: var(--color-secondary);
     font-weight:400;
-    
-
+    margin-top: 100px;
 }
 
 .main__header-left p {
@@ -288,8 +287,6 @@ footer{
 
 
 
-
-
 .footer__copyright {
     color: var(--color-gray-100);
     text-align: center;
@@ -351,7 +348,7 @@ footer{
         }
 }
 
-/* MEDIA QUERIES (medium Screens) */
+/* MEDIA QUERIES (small Screens) */
 @media screen and (max-width: 600x) {
    /* MAIN HEADER */
    .main__header {
@@ -368,6 +365,10 @@ footer{
    .main__header-container {
     grid-template-columns: 1fr;
    }
+
+   a.btn.lg {
+    width: 100px;
+  }
 
 /* Programs */
 
