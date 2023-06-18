@@ -212,6 +212,12 @@ body {
             color: rgba(255,255,255,0.7);
         }
 
+        .main__header-left{
+            margin-top: -30rem;
+            display: block;
+          
+        }
+
 
 
 
@@ -227,6 +233,14 @@ body {
     }
     h1{ font-size: 2rem;}
     h2 {font-size: 1.6rem;}
+
+
+    .main__header-left{
+        margin-top: -30rem;
+        display: block;
+      
+    }
+
 }
 
 .header__content{
@@ -262,5 +276,11 @@ body {
       .header__content p {
         font-size: 0.85rem;
       }
+
+      .main__header-left{
+        margin-top: -10rem;
+        display: block;
+      
+    }
 
 }
